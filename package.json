@@ -1,0 +1,19 @@
+{
+  "name": "Discussion4",
+  "version": "1.0.0",
+  "description": "Testing Practice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha server.test.js"
+  },
+  "author": "Medhir Bhargava & Alex Webber",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mocha": "^8.3.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20",
+    "should": "^13.2.3"
+  }
+}
