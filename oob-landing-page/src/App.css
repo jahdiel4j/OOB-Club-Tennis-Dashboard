@@ -22,6 +22,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.icon-link {
   color: #fff;
   font-size: 100px;
 }
@@ -31,8 +38,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
   color: #fff;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .donate {
@@ -40,8 +49,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
   color: #fff;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 .login {
@@ -49,6 +60,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
   color: #fff;
-  font-size: 100px;
+  font-size: 50px;
 }
