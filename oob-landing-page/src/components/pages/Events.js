@@ -1,7 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { Button } from '../Button';
 import '../../App.css'
+import { Link } from 'react-router-dom';
 
-export default function Events() {
-    return <h1 className='events'>CALENDAR OF EVENTS</h1>;
+function Home () {
+    return (
+        <div className='events'>
+            <h1>CALENDAR OF EVENTS</h1>
+            <Link className="icon-link" calendar
+                to="//calendar.google.com/calendar/u/1/r?tab=oc&pli=1"
+                target="_blank"
+                aria-label="Calendar"
+                        >
+                <i className="fas fa-calendar-day" />
+            </Link>
+        </div>
+    );
 }
 
+export default Home;
