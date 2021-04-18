@@ -11,7 +11,7 @@ export default function Events() {
                 target="_blank"
                 aria-label="Login"
                         >
-                <i className="fas fa-chart-bar" />
+                <i className="fas fa-sign-in-alt" />
             </Link>
     </div>
     );
