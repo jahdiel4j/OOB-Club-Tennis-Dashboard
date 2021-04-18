@@ -8,7 +8,8 @@ function Home () {
         <div className='events'>
             <h1>CALENDAR OF EVENTS</h1>
             <Link className="icon-link" calendar
-                to="//calendar.google.com/calendar/u/1/r?tab=oc&pli=1"
+                to="//calendar.google.com/calendar/u/1?cid=Y2x1YnRlbm5pc3VmQGdtYWlsLmNvbQ
+                "
                 target="_blank"
                 aria-label="Calendar"
                         >
